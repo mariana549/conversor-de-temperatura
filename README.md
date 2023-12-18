@@ -2,7 +2,7 @@
  
 ## resultado 
 
-[](src/imagens/Captura%20de%20tela%202023-12-18%20102719.png)
+![](src/imagens/Captura%20de%20tela%202023-12-18%20102719.png)
 
 ## descrição
 
