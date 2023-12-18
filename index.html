@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+  <div class="form">
+    <label for="">Temperatura ( ºF / ºC )</label>
+    <input id="temperatura" type="number" placeholder="Digite a temperatura">
+    <button id="calcular">Calcular</button>
+
+    <div class="opcoes">
+      <div class="d-flex">
+        <input id="cel" id="celsius" name="temp" type="radio" checked>
+        <label for="celsius">Celsius</label>
+      </div>
+      <div class="d-flex">
+        <input id="fa" id="fah" name="temp" type="radio">
+        <label for="fah">Fah</label>
+      </div>
+      <div class="d-flex">
+        <input id="fa" id="fah" name="temp" type="radio">
+        <label for="fah">kelvin</label>
+      </div>
+    </div>
+    <p>Reposta: <span id="res"></span></p>
+  </div>
+
+  <script src="index.js"></script>
+</body>
+
+</html>
