@@ -10,15 +10,23 @@
    align-items: center;
    justify-content: center;
    height: 100vh;
+   background: #EFEEEC url(../imagens/maquete.avif) no-repeat center;
  }
  
  .form {
    display: flex;
    flex-direction: column;
+   justify-content: flex-start;
    width: 250px;
+   height: 500px;
    gap: 10px;
    padding: 10px;
-   border: 1px solid;
+   background-color: #fff;
+ }
+
+ #temp{
+  font-family: Arial, Helvetica, sans-serif;
+  font-weight: bold;
  }
 
  .containerOpcoes{
@@ -27,10 +35,11 @@
 }
  
  input{
-   font-size: 1rem;
-   padding: 8px 10px;
-   outline: none;
- }
+  font-size: 1rem;
+  padding: 8px 10px;
+  outline: none;
+
+  }
  
  button {
    border: none;
