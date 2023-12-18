@@ -7,4 +7,4 @@
 ## descrição
 
 Esse projeto foi um "desafio" de um amigo, no qual o objetivo era fazer as converçoes de temperatura, o resultado foi um projeto bonito e funcional.
-[veja o projeto funcionando]() 
+[veja o projeto funcionando](https://conversor-de-temperatura-six.vercel.app/) 
