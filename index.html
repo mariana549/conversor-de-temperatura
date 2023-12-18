@@ -10,23 +10,38 @@
 
 <body>
   <div class="form">
-    <label for="">Temperatura ( ºF / ºC )</label>
+    <label for="">Temperatura ( ºF / ºC / K )</label>
     <input id="temperatura" type="number" placeholder="Digite a temperatura">
     <button id="calcular">Calcular</button>
-
-    <div class="opcoes">
+    <div class="containerOpcoes">
+        <div class="opcoes">
       <div class="d-flex">
         <input id="cel" id="celsius" name="temp" type="radio" checked>
         <label for="celsius">Celsius</label>
       </div>
       <div class="d-flex">
         <input id="fa" id="fah" name="temp" type="radio">
-        <label for="fah">Fah</label>
+        <label for="fah">Fahrenheit</label>
       </div>
       <div class="d-flex">
-        <input id="fa" id="fah" name="temp" type="radio">
-        <label for="fah">kelvin</label>
+        <input id="kel" id="ke" name="temp" type="radio">
+        <label for="ke">kelvin</label>
       </div>
+    </div>
+    <div class="SegundasOpcoes">
+      <div class="d-flex">
+        <input id="cel2" id="celsius2" name="temp2" type="radio">
+        <label for="celsius2">Celsius</label>
+      </div>
+      <div class="d-flex">
+        <input id="fahre" id="fah2" name="temp2" type="radio" checked>
+        <label for="fah2">Fahrenheit</label>
+      </div>
+      <div class="d-flex">
+        <input id="kel2" id="ke2" name="temp2" type="radio">
+        <label for="ke2">kelvin</label>
+      </div>
+    </div>
     </div>
     <p>Reposta: <span id="res"></span></p>
   </div>

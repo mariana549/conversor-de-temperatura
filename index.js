@@ -1,7 +1,11 @@
 let input = document.querySelector("#temperatura")
 let botao = document.querySelector("button")
 let radiusCelsius = document.querySelector("#cel")
+let radiusCelsius2 = document.querySelector("#cel2")
 let radiusFah = document.querySelector("#fa")
+let radiusFah2 = document.querySelector("#fahre")
+let radiusKel = document.querySelector("#kel")
+let radiusKel2 = document.querySelector("#kel2")
 let resposta = document.querySelector("#res")
 let body = document.querySelector('body')
 
@@ -15,12 +19,20 @@ function calcularTemperatura(valor) {
       return
    }
 
-   if (radiusCelsius.checked) {
-      calculo = valor * 1.8 + 32
-      resposta.innerHTML = calculo.toFixed(2) + " ºF"
+   if (radiusCelsius.checked && radiusFah2.checked) {
+      calculo = valor * 1.8 + 32;
+      resposta.innerHTML = calculo.toFixed(2) + " ºF";
+   } else if(radiusFah.checked && radiusCelsius2.checked){
+      calculo = (valor - 32) / 1.8;
+      resposta.innerHTML = calculo.toFixed(2) + " ºC";
+   } else if(radiusKel.checked && radiusCelsius2.checked){
+      calculo = valor - 273.15;
+      resposta.innerHTML = calculo.toFixed(2) + " ºC";
+   } else if (radiusCelsius.checked && radiusKel2.checked){
+      calculo = valor + 273.15;
+      resposta.innerHTML = calculo + " K";
    } else {
-      calculo = (valor - 32) / 1.8
-      resposta.innerHTML = calculo.toFixed(2) + " ºC"
+      alert("não foi possivel fazer a conversão");
    }
 }
 

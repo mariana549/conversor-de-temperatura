@@ -15,8 +15,16 @@
  .form {
    display: flex;
    flex-direction: column;
+   width: 250px;
    gap: 10px;
+   padding: 10px;
+   border: 1px solid;
  }
+
+ .containerOpcoes{
+  display: flex;
+  justify-content: space-between;
+}
  
  input{
    font-size: 1rem;
