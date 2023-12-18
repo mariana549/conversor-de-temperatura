@@ -6,5 +6,6 @@
 
 ## descrição
 
-Esse projeto foi um "desafio" de um amigo, no qual o objetivo era fazer as converçoes de temperatura, o resultado foi um projeto bonito e funcional.
+Esse e um projeto no qual o objetivo é converter as temperaturas, é um desafio facil mas que exige logica de programação.
+o desafio foi proposto por [eduardo oliveira](https://www.linkedin.com/in/eduardo-oliveira-liria-849467246/).
 [veja o projeto funcionando](https://conversor-de-temperatura-six.vercel.app/) 
